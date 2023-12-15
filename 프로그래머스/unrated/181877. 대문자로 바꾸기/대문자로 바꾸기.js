@@ -1,0 +1,1 @@
+const solution = (myString) => [...myString].reduce((acc, cur) => acc + cur.toUpperCase(), '')
