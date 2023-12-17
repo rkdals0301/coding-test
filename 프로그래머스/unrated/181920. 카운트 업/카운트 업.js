@@ -6,3 +6,5 @@ const solution = (start_num, end_num) => {
     
     return answer
 }
+
+// const solution = (start, end) => Array.from({length: end - start + 1}, () => start++);
