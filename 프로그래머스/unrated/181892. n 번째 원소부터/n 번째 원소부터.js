@@ -1,0 +1,1 @@
+const solution = (num_list, n) => num_list.filter((num, index) => index + 1 >= n )
