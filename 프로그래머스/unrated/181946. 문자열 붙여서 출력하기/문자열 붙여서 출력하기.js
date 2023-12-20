@@ -13,4 +13,5 @@ rl.on('line', function (line) {
     str2 = input[1];
     
     console.log(`${str1}${str2}`)
+    // console.log(input.join(''))
 });
