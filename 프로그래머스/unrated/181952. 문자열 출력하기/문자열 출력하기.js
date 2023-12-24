@@ -12,3 +12,9 @@ rl.on('line', function (line) {
     str = input[0];
     console.log(str);
 });
+
+// const readline = require('readline');
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// }).on('line', console.log)
