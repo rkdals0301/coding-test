@@ -1,0 +1,1 @@
+const solution = (arr, delete_list) => arr.filter((item) => !delete_list.find((deleteItem) => deleteItem === item))
