@@ -5,6 +5,8 @@ const solution = (a, b) => {
         return answer1
     else if (answer2 > answer1)
         return answer2 
-    else 
-        return ''
 }
+
+// function solution(a, b) {
+//     return Math.max(Number(`${a}${b}`), Number(`${b}${a}`))
+// }
