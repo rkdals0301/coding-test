@@ -5,3 +5,10 @@ const solution = (my_string, s, e ) => {
 
     return `${string1}${string2}${string3}`
 }
+
+// const solution = (my_string, s, e ) => {
+//     const str = my_string.substring(s, e+1);
+//     const newStr = str.split('').reverse().join('');
+
+//     return my_string.replace(str, newStr);
+// }
