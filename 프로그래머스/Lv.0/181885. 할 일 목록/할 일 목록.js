@@ -1,0 +1,1 @@
+const solution = (todo_list, finished) => todo_list.filter((todo_item, index) => !finished[index]) 
