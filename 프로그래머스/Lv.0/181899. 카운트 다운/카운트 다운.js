@@ -6,3 +6,5 @@ const solution = (start, end_num) => {
     
     return answer
 }
+
+// const solution = (start, end_num) => Array(start - end_num + 1).fill(start).map((num, index)=> num - index);
