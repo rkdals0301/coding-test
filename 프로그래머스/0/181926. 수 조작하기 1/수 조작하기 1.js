@@ -13,3 +13,12 @@ const solution = (n, control) => {
     
     return n
 }
+
+// const operations = {
+//   w: (n) => n + 1,
+//   s: (n) => n - 1,
+//   d: (n) => n + 10,
+//   a: (n) => n - 10,
+// }
+
+// const solution = (n, control) => [...control].reduce((prev, op) => operations[op](prev), n)
