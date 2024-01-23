@@ -12,3 +12,13 @@ rl.on('line', function (line) {
     console.log(`a = ${input[0]}`)
     console.log(`b = ${input[1]}`)
 });
+
+// const readline = require('readline')
+// const rl = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+// }).on('line', function (line) {
+//     const [a, b] = line.split(' ')
+//     console.log('a =', a)
+//     console.log('b =', b)
+// })
