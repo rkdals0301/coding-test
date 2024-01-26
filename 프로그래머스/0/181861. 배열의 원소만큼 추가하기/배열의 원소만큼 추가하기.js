@@ -1,8 +1,7 @@
 const solution = (arr) => {
     var answer = [];
-
-    arr.map((a)=>{
-        for(let i = 0;i<a; i++){
+    arr.forEach((a) => {
+        for(let i = 0 ; i < a ; i++){
             answer.push(a)
         }
     })
